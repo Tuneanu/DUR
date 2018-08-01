@@ -1,0 +1,75 @@
+body {
+	margin :0;
+	background : #F8F8FF;
+	font-family : 'Courier New',monospace;
+	font-weight: 300;
+}
+
+.container{
+	
+	width: 80%;
+	margin :0 auto;
+}
+header{
+	background: #FF0009
+}
+
+header::after{
+	content:'';
+	display: table;
+	clear: both;
+}
+
+.logo{
+	float: left;
+	height: 60px;
+	width: 200px;
+}
+nav{
+	float:left;
+}
+
+nav ul{
+
+margin:0;
+padding:0;
+list-style:none;
+
+}
+
+nav li{
+display: inline-block;
+margin-left : 50px;
+padding-top: 19px;
+padding-left: 30px;
+
+
+}
+nav a{
+	/*vezi ca atributul "a" e pt toate a-urile de pe site"*/
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+nav a:hover {
+	color: 	#F5F5F5
+}
+
+nav a::before{
+
+ content :'';
+ display: block;
+ height: 1px;
+ background-color:#F5F5F5;
+ 
+  
+ width:100%;
+
+}
+nav a:hover::before{
+	color:#F5F5F5;
+}
+
+
+
+
